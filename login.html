@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <link rel="stylesheet" href="login.css">
+            <title>Sign-Up</title>
+        </head>
+        <body>
+            <section id="block">
+                <form action="" id="SignUp-Form">
+                    <h2>User Details</h2>
+                <div id="First">
+                    <label for="fname">Full Name</label>
+                    <input type="text" title="Name" placeholder="Full Name" required>
+
+                    <label for="fname">Role</label>
+                    <select name="Role" id="Role" required>
+                        <option value="">Choose</option>
+                        <option value="Editor">Editor</option>
+                        <option value="User">User</option>
+                        <option value="Evaluator">Evaluator</option>
+                    </select>
+                </div>
+                <div id="Second">
+                    <label for="fname">Username</label>
+                    <input type="text" title="Username" placeholder="Username" required>
+                    <label for="fname">Password</label>
+                    <input type="password" title="Password" placeholder="Password" required>
+                </div id="Third">
+                <div>
+                    <label for="fname">Email</label>    
+                    <input type="email" title="Email" placeholder="Email" required>
+                    <label for="fname">Content Approvers</label>
+                    <input type="text" title="Content Approvers" placeholder="Content Approvers" required>
+                </div>     
+                    <br/>
+                    <br/>
+                   
+                    <label class="switch">
+                        <input type="checkbox" title="Active">
+                        <span class="slider"></span>
+                        Active
+                    </label>
+                    <h2>Reminder Settings</h2>
+                    <label class="switch">
+                        <input type="checkbox" title="Your Event has expired (Auto)">
+                        <span class="slider"></span>
+                        Your Event has expired (Auto)
+                    </label>
+                    <br/>                    
+                    <label class="switch">
+                        <input type="checkbox" title="Job Vacancy expired (Auto)">
+                        <span class="slider"></span>
+                        Job Vacancy expired (Auto)
+                    </label>
+                    <br/>
+                    <label class="switch">
+                        <input type="checkbox" title="Content Approval (Auto)">
+                        <span class="slider"></span>
+                        Content Approval (Auto)
+                    </label>
+                    <br/>
+                    <label class="switch">
+                        <input type="checkbox" title="Course Bookings (Auto)">
+                        <span class="slider"></span>
+                        Course Bookings (Auto)
+                    </label>
+                    <br/>
+                    <label class="switch">
+                        <input type="checkbox" title="Blog comment Approval (Auto)">
+                        <span class="slider"></span>
+                        Blog comment Approval (Auto)
+                    </label>
+                    <br/>
+                    <label class="switch">
+                        <input type="checkbox" title="Expiring Documents (Auto)">
+                        <span class="slider"></span>
+                        Expiring Documents (Auto)
+                        <br/>
+                    </label>
+                </form>
+            </section>
+        </body>
+</html>
